@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="main__section">
+            <header>
+                <h1 class="main__title">CALCULADORA</h1>
+                <p class="main__paragraph">DEVBRK</p>
+            </header>
+            <div class="calculator__section">
+                <input type="text" name="width" id="width" readonly>
+                <br>
+                <input type="button" value="1" onclick="add('1')">
+                <input type="button" value="2" onclick="add('2')">
+                <input type="button" value="3" onclick="add('3')">
+                <input type="button" value="+" onclick="add('+')">
+                <br>
+                <input type="button" value="4" onclick="add('4')">
+                <input type="button" value="5" onclick="add('5')">
+                <input type="button" value="6" onclick="add('6')">
+                <input type="button" value="-" onclick="add('-')">
+                <br>
+                <input type="button" value="7" onclick="add('7')">
+                <input type="button" value="8" onclick="add('8')">
+                <input type="button" value="9" onclick="add('9')">
+                <input type="button" value="*" onclick="add('*')">
+                <br>
+                <input type="button" value="0" onclick="add('0')">
+                <input type="button" value="." onclick="add('.')">
+                <input type="button" value="/" onclick="add('/')">
+                <input type="button" value="=" onclick="result()">
+                <br>
+                <input type="button" value="C" onclick="reset()">
+            </div>
+            <script src="script.js"></script>
+        </section>
+    </main>
+</body>
+
+</html>
